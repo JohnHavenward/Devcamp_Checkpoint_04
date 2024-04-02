@@ -73,6 +73,6 @@ print(f'Exercise 8:\t{my_list}\n')
 
 # Exercise 9: Use reassignment to add an element to your tuple.
 
-my_tuple = my_tuple + ('epsilon',)
+my_tuple += ('epsilon',)
 
 print(f'Exercise 9:\t{my_tuple}')
