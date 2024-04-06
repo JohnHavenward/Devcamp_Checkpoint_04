@@ -146,7 +146,7 @@ mi_diccionario["clave 6"] = "valor 6"
 Para buscar un ítem dentro del diccionario podemos usar la función `get()` la cual nos devuelve el valor asociado a la clave solicitada. Esta función también nos permite definir un valor por defecto a devolver si no se ha encontrado el ítem dentro del diccionario. A continuación se muestra su uso:
 
 ```python
-noveno_valor = mi_diccionario.get("clave 9", "Ítem no econtrado")
+noveno_valor = mi_diccionario.get("clave 9", "Ítem no encontrado")
 ```
 </br>
 
@@ -155,7 +155,7 @@ Para eliminar un ítem tenemos dos opciones. Podemos utilizar la palabra clave `
 ```python
 del mi_diccionario["clave 3"]
 
-valor_eliminado = mi_diccionario.pop("clave 5", "Ítem no econtrado")
+valor_eliminado = mi_diccionario.pop("clave 5", "Ítem no encontrado")
 ```
 </br>
 
